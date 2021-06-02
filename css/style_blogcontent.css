@@ -1,10 +1,8 @@
 /* .blog-container */
 
-
 .blog-container {
     padding-top: 25px;
 }
-
 
 
 /* //breadcrumb__list */
@@ -401,4 +399,22 @@ h3 {
     font-size: 16px;
     margin: 0 4px;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    .site-content {
+        margin-top: 70px;
+    }
+    .block {
+        width: 80%;
+    }
+    .left1 {
+        width: 100%;
+    }
+    .right1 {
+        display: none!important;
+    }
 }
